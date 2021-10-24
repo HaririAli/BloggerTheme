@@ -79,17 +79,17 @@ body {
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: Arial;
+	font-family: Rosario;
 	line-height: 1.5;
 	background: #121212;
 	color: #8cba86;
 	-webkit-font-smoothing: antialiased;
 	word-wrap: break-word;
 	-ms-word-wrap: break-word;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 }
 
 .overflow-containernbt {
@@ -142,7 +142,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Arial;
+	font-family: Rosario;
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
@@ -279,7 +279,7 @@ textarea {
 	color: #fff;
 	outline: solid 1px #d9dcdf;
 	border: none;
-	font-family: Arial;
+	font-family: Rosario;
 	font-size: .813em;
 	line-height: 1.85;
 	border-radius: 0;
@@ -347,36 +347,12 @@ a img {
 	padding: 0.5em;
 }
 
-.title-infonbt:hover {
-	background: #8cba86;
-}
-
-.title-infonbt:hover a {
-	color: #121212;
-	background: #8cba86;
-}
-
 .site-title {
 	font-size: 1.625em;
 	line-height: 1.85;
 	position: absolute;
 	right: 3.703%;
 	z-index: 1;
-}
-
-.site-title a {
-	text-decoration: none;
-	color: #8cba86;
-}
-
-.site-title a:hover {
-	/*color: #121212;
-    */
-}
-
-.site-title img {
-	max-width: 6em;
-	max-height: 2.25em;
 }
 
 .site-title span {

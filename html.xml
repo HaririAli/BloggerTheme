@@ -95,6 +95,11 @@ function createSummaryAndThumb(pID){
     <a class='skip-content' href='#mainnbt'>Skip to content</a>
 
     <header class='site-headernbt' id='site-headernbt' role='banner'>
+      <div class='title-infonbt'>
+        <div id='header-inner'>
+          <h1 class='site-title'>Ali Hariri</h1>
+        </div>
+      </div>
       <button class='toggle-navigationnbt' id='toggle-navigationnbt'><i class='fa fa-bars'/></button>
       <div class='menu-containernbt menu-primarynbt' id='menu-primarynbt' role='navigation'>
 
